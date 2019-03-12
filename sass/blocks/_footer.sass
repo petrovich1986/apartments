@@ -5,6 +5,11 @@
   left: 0
   top: 0
   width: 50%
+  height: 640px
+#map 
+  width: 50%
+  height: 640px
+          
 .contacts
   flex-basis: 50%
   padding-top: 75px
@@ -48,7 +53,7 @@
       font-size: 18px
 
 @media (max-width: 768px)
-  .map
+  #map
     position: absolute
     margin-top: 470px
     width: 100%
@@ -71,3 +76,7 @@
       &__icon
         margin-right: 12px 
         line-height: 10px
+@media (max-width: 426px)
+  .contacts 
+    &__title 
+      width: 300px
